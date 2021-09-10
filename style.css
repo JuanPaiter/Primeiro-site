@@ -1,0 +1,56 @@
+@charset "UTF-8";
+h1{
+    text-align: center;
+    color: teal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(95, 211, 153, 0.698);
+    font-feature-settings: "abvs";
+    font-size: 60px;
+    
+}
+p{
+    text-align:center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+ 
+
+}
+
+body {
+    background:url("imagens/fundo\(1080\).jpg") no-repeat top center fixed;
+    background-size: cover;
+}
+div::before {
+    content: " Meu primeiro site ";
+    font: 10pt Arial;
+    font-weight: bold;
+    color: white;
+    background-color: #273747;
+    padding: 5px;
+    display: block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 560px;
+}
+
+
+
+div {
+    background-color: rgba(255,255,255,.8);
+    margin: 100px auto 100px auto;
+    padding: 10px;
+    width: 550px;
+    min-height:300px;
+}
+
+a {
+    color: #035846;
+    text-decoration: none;
+    font-weight: bold;
+    font: 18pt Helvetica;
+}
+
+a:hover {
+    text-decoration: underline;
+}
